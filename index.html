@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,39 +9,49 @@
     <link rel="stylesheet" href="style.css">
     <title>Register Forma</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="wrapper">
         <h2>Register</h2>
         <div id="error_message">
-           
         </div>
-        <form action="" id="myform" onsubmit = "return validate();">
+        <form action="" id="myform" onsubmit="return validate();">
 
-          <div class="input_field">
-              <input type="text" placeholder="Username" id="name">
-          </div>
-          <!-- <div class="input_field">
-              <input type="text" placeholder="Phone" id="phone">
-          </div> -->
-          <div class="input_field">
-              <input type="text" placeholder="Email" id="email">
-          </div>
             <div class="input_field">
-              <input type="password" placeholder="Enter Password Here" id="password">
-          </div>
+                <input type="text" placeholder="Username" id="name">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <input type="password" placeholder="Enter Password Here" id="password">
+            </div>
 
-          <div class="input_field">
-            <input type="password" placeholder="Confirm Password Here" id="confirmpassword">
-        </div>
-          <!-- <div class="input_field">
-              <textarea placeholder="Message" id="message"></textarea>
-          </div> -->
-          <div class="btn">
-              <input type="submit">
-          </div>
+            <div class="input_field">
+                <input type="password" placeholder="Confirm Password Here" id="confirmpassword">
+            </div>
+            <div class="btn">
+                <input type="submit">
+            </div>
         </form>
+        <span>If you are registred please click here to <a href="login.html">login</a></span>
     </div>
 
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos amet tenetur autem nesciunt vero fugiat, vel quas!
+            Recusandae nobis modi tempore nesciunt hic fuga neque non! Fuga qui recusandae totam.
+        </p>
+    </footer>
 </body>
 </html>

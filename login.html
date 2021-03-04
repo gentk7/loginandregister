@@ -12,25 +12,42 @@
 
 <body>
 
-    <div class="wrapper">
-        <h2>Login</h2>
-        <div id="error_message">
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
 
+        <div class="wrapper">
+            <h2>Login</h2>
+            <div id="error_message">
+            </div>
+
+            <form action="" id="myform" onsubmit="return validatee();">
+
+                <div class="input_field">
+                    <input type="text" placeholder="Enter username" id="name">
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="Enter password" id="password">
+                </div>
+
+                <div class="btn">
+                    <input type="submit">
+                </div>
+            </form>
+            <span>If you don't have an account please click here <a href="index.html">register</a></span>
         </div>
-        <form action="" id="myform" onsubmit = "return validatee();">
 
-            <div class="input_field"> 
-                <input type="text" placeholder="Enter username" id="name">
-            </div>
-            <div class="input_field"> 
-                <input type="password" placeholder="Enter password" id="password">
-            </div>
-
-            <div class="btn">
-                <input type="submit">
-            </div>
-        </form>
-    </div>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos amet tenetur autem nesciunt vero fugiat, vel quas!
+            Recusandae nobis modi tempore nesciunt hic fuga neque non! Fuga qui recusandae totam.
+        </p>
+    </footer>
 
 </body>
 
